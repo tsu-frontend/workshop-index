@@ -1,107 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshops Calendar</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h1>Workshops Calendar</h1>
+      <div class="container">
+        <h1>Workshops Calendar</h1>
+        <div class="credentials">
+          <div>
+            <span>Supabase Credentials:</span>
+            <span>aleksandre.imnaishvili@tsu.ge</span>
+            <span>T-su*2025#12345</span>
+          </div>
+          <div>
+            <span>Github Credentials:</span>
+            <span>aleksandre.imnaishvili@tsu.ge</span>
+            <span>T-su*12345</span>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
-        <div class="container">
-            <section id="passed" class="workshop-section">
-                <h2>Passed Workshops</h2>
-                <div class="workshop-grid">
-                    <article class="workshop-card">
-                        <div class="date-badge">April 29, 2025</div>
-                        <h3>Init</h3>
-                        <p>Get to know meeting</p>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 01, 2025</div>
-                        <h3>Sport day</h3>
-                        <p>Sport activity</p>
-                        
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 03, 2025</div>
-                        <h3>DOM methods</h3>
-                        <p>DOM selection & manipulation methods</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://github.com/tsu-frontend/workshop-1" class="repo-link">Repository</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 06, 2025</div>
-                        <h3>Image preview & Async part I</h3>
-                        <p>Showcase of image preview & theories of async operations</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://github.com/tsu-frontend/workshop-2" class="repo-link">Repository</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 08, 2025</div>
-                        <h3>Async part II</h3>
-                        <p>Showcase of async operations</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://github.com/tsu-frontend/workshop-3" class="repo-link">Repository</a>
-                            <a target="_blank" href="https://drive.google.com/file/d/1VZdayHyImAMGBu6HOt6ivFo0sOnCgCuY/view?usp=sharing" class="recording-link">Recording Part I</a>
-                            <a target="_blank" href="https://drive.google.com/file/d/1gQ48xbrpm5bKZleahQpde-SDPYM30__M/view?usp=sharing" class="recording-link">Recording Part II</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 10, 2025</div>
-                        <h3>Fetch API & Communication with server Part I</h3>
-                        <p>Setting up the server & fetching data from it</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://github.com/tsu-frontend/workshop-4" class="repo-link">Repository</a>
-                            <a target="_blank" href="https://drive.google.com/file/d/1LwUVLviuB9gG2dxxJ3gBH2lg_j5RMfpF/view?usp=sharing" class="recording-link">Recording</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 13, 2025</div>
-                        <h3>Communication with server Part II</h3>
-                        <p>Setting up the server & fetching data from it</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://drive.google.com/file/d/1OJhoqZq1y5j1ERfj45oeRdIY08aLOo07/view?usp=sharing" class="recording-link">Recording</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 15, 2025</div>
-                        <h3>Database connection & Authentication</h3>
-                        <p>Defining the database schema & authentication methods</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://drive.google.com/file/d/1uqnvJ5_gRDaCebkoUhaDqpAz4Um7mxOU/view?usp=sharing" class="recording-link">Recording</a>
-                        </div>
-                    </article>
-                    <article class="workshop-card">
-                        <div class="date-badge">May 24, 2025</div>
-                        <h3>Upcoming exams overview</h3>
-                        <p>Taking look at topics covered during module</p>
-                        <div class="workshop-links">
-                            <a target="_blank" href="https://drive.google.com/file/d/1SksVzAwh_RneewYgISdImA2XdS8tdjaS/view?usp=sharing" class="recording-link">Recording</a>
-                        </div>
-                    </article>
-                    
-                </div>
-            </section>
+      <div class="container">
+        <section id="passed" class="workshop-section">
+          <h2>Passed Workshops</h2>
+          <div class="workshop-grid">
+            <article class="workshop-card">
+              <div class="date-badge">April 29, 2025</div>
+              <h3>Init</h3>
+              <p>Get to know meeting</p>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 01, 2025</div>
+              <h3>Sport day</h3>
+              <p>Sport activity</p>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 03, 2025</div>
+              <h3>DOM methods</h3>
+              <p>DOM selection & manipulation methods</p>
+              <div class="workshop-links">
+                <a target="_blank" href="https://github.com/tsu-frontend/workshop-1" class="repo-link">Repository</a>
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 06, 2025</div>
+              <h3>Image preview & Async part I</h3>
+              <p>Showcase of image preview & theories of async operations</p>
+              <div class="workshop-links">
+                <a target="_blank" href="https://github.com/tsu-frontend/workshop-2" class="repo-link">Repository</a>
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 08, 2025</div>
+              <h3>Async part II</h3>
+              <p>Showcase of async operations</p>
+              <div class="workshop-links">
+                <a target="_blank" href="https://github.com/tsu-frontend/workshop-3" class="repo-link">Repository</a>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1VZdayHyImAMGBu6HOt6ivFo0sOnCgCuY/view?usp=sharing"
+                  class="recording-link"
+                  >Recording Part I</a
+                >
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1gQ48xbrpm5bKZleahQpde-SDPYM30__M/view?usp=sharing"
+                  class="recording-link"
+                  >Recording Part II</a
+                >
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 10, 2025</div>
+              <h3>Fetch API & Communication with server Part I</h3>
+              <p>Setting up the server & fetching data from it</p>
+              <div class="workshop-links">
+                <a target="_blank" href="https://github.com/tsu-frontend/workshop-4" class="repo-link">Repository</a>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1LwUVLviuB9gG2dxxJ3gBH2lg_j5RMfpF/view?usp=sharing"
+                  class="recording-link"
+                  >Recording</a
+                >
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 13, 2025</div>
+              <h3>Communication with server Part II</h3>
+              <p>Setting up the server & fetching data from it</p>
+              <div class="workshop-links">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1OJhoqZq1y5j1ERfj45oeRdIY08aLOo07/view?usp=sharing"
+                  class="recording-link"
+                  >Recording</a
+                >
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 15, 2025</div>
+              <h3>Database connection & Authentication</h3>
+              <p>Defining the database schema & authentication methods</p>
+              <div class="workshop-links">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1uqnvJ5_gRDaCebkoUhaDqpAz4Um7mxOU/view?usp=sharing"
+                  class="recording-link"
+                  >Recording</a
+                >
+              </div>
+            </article>
+            <article class="workshop-card">
+              <div class="date-badge">May 24, 2025</div>
+              <h3>Upcoming exams overview</h3>
+              <p>Taking look at topics covered during module</p>
+              <div class="workshop-links">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1SksVzAwh_RneewYgISdImA2XdS8tdjaS/view?usp=sharing"
+                  class="recording-link"
+                  >Recording</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
 
-            <section id="upcoming" class="workshop-section">
-                
-            </section>
-        </div>
+        <section id="upcoming" class="workshop-section"></section>
+      </div>
     </main>
 
     <footer>
-        <div class="container">
-            <p>With care by @Alsandre</p>
-        </div>
+      <div class="container">
+        <p>With care by @Alsandre</p>
+      </div>
     </footer>
-</body>
-</html> 
+  </body>
+</html>
